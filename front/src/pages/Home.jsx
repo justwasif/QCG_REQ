@@ -3,7 +3,7 @@ import { Link,Outlet, useNavigate } from "react-router-dom"
 export default function Home(){
     const navigate=useNavigate();
     const handleWeb=()=>{
-        navigate("/web")
+        navigate("/web1")
     }
     const handleCore=()=>{
         navigate("/core")
