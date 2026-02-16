@@ -15,7 +15,7 @@ export default function Home(){
     }
     
     return (
-  <div className="min-h-screen flex items-center justify-center bg-gray-800">
+  <div className="min-h-screen flex items-center justify-center">
     <div className="max-w-sm rounded-xl overflow-hidden shadow-2xl bg-white">
       
       

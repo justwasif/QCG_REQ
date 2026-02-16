@@ -15,31 +15,31 @@ export default function Web1(){
     }
     
     return (
-        <div className="min-h-screen bg-indigo-600 flex flex-col items-center justify-center px-4">
+        <div className="min-h-screen  flex flex-col items-center justify-center px-4">
             <h1 className="text-4xl font-semibold text-white mb-8">
                 Sport quiz
             </h1>
 
             <div className="bg-white w-full max-w-md rounded-2xl shadow-lg p-6">
                 <h2 className="text-lg font-semibold text-gray-800 mb-6">
-                    Which of the following sports is not part of the triathlon?
+                    What is the main goal of development for most people?
                 </h2>
 
                 <div className="flex flex-col gap-4">
                     <button onClick={handleInc} className="w-full py-3 rounded-xl border border-gray-400 bg-gray-100 hover:bg-gray-200 transition font-medium">
-                        Running
+                        To increase only income
                     </button>
 
                     <button onClick={rest} className="w-full py-3 rounded-xl border border-gray-400 bg-gray-100 hover:bg-gray-200 transition font-medium">
-                        Swimming
+                        To increase income and improve quality of life
                     </button>
 
                     <button onClick={rest} className="w-full py-3 rounded-xl border border-gray-400 bg-gray-100 hover:bg-gray-200 transition font-medium">
-                        Cycling
+                        To increase population
                     </button>
 
                     <button onClick={rest} className="w-full py-3 rounded-xl border border-gray-400 bg-gray-100 hover:bg-gray-200 transition font-medium">
-                        Horse-Riding
+                        To increase taxes
                     </button>
                 </div>
             </div>

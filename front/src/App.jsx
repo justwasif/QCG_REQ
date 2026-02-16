@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import AuthCard from './components/AuthCard'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home';
-import Web from './pages/web/Web1';
+
 import Designe from './pages/Design';
 import Core from './pages/Core';
 import Web1 from './pages/web/Web1';
