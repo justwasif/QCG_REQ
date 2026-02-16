@@ -12,6 +12,8 @@ import Web1 from './pages/web/Web1';
 import Web2 from './pages/web/Web2';
 import Web3 from './pages/web/Web3';
 import Web4 from './pages/web/Web4';
+import { TotalWeb } from './components/TotalWeb'
+import WebResult from './pages/web/WebResult'
 function App() {
   const router = createBrowserRouter([
   { path: "/home", element: <Home /> },
@@ -24,11 +26,15 @@ function App() {
   {path:"/web3",element:<Web3/>},
   // {path:"/web2",element:<Web3/>},
   {path:"/web4",element:<Web4/>},
+  {path:"/result",element:<WebResult/>},
 
 
   ])
   return (
-    <RouterProvider router={router}/>
+    <TotalWeb>
+      <RouterProvider router={router}/>
+    </TotalWeb>
+    
   );
 }
 

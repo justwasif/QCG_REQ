@@ -1,17 +1,15 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import totalWeb from "../../components/totalWeb";
+import { use } from "../../components/TotalWeb";
 
 export default function Web4(){
-    const [count,setCount]=useState(0);
-    const navigate=useNavigate();
-    const handleInc=()=>{
-        setCount(4);
-        totalWeb(count);
-        navigate()
-
-
-    }
+   const {count,setCount}=use()
+       const navigate=useNavigate();
+       const handleInc=()=>{
+           setCount();
+         
+           navigate()
+          }
     return (
   <div className="min-h-screen bg-indigo-600 flex flex-col items-center justify-center px-4">
 

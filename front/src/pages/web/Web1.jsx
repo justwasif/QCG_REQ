@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import totalWeb from "../../components/totalWeb";
+
+import { use } from "../../components/TotalWeb";
 
 export default function Web1(){
-    const [count,setCount]=useState(0);
+    const {count,setCount}=use()
     const navigate=useNavigate();
     const handleInc=()=>{
-        setCount(1);
-        totalWeb(count);
+        setCount();
+      
         navigate("/web2")
-        console.log(totalWeb)
+        
 
 
     }
