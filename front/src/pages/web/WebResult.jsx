@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { use } from "../../components/TotalWeb";
+import { useQuiz } from "../../components/TotalWeb";
 function WebResult(){
     const navigate=useNavigate();
-    const {total,setTotal}=use();
+    const {total,setTotal}=useQuiz();
     return(
         <div>
             <div>

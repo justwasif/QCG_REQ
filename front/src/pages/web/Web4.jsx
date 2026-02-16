@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { use } from "../../components/TotalWeb";
+import { useQuiz } from "../../components/TotalWeb";
 
 export default function Web4(){
-   const {count,setCount}=use()
+   const {Setcount}=useQuiz()
        const navigate=useNavigate();
        const handleInc=()=>{
-           setCount();
-         
+           Setcount();
+           console.log(setCount());         
            navigate()
           }
     return (
