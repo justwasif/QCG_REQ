@@ -10,7 +10,7 @@ export default function Home(){
 
     }
     const handleDesign=()=>{
-        navigate("/design")
+        navigate("/design1")
 
     }
     

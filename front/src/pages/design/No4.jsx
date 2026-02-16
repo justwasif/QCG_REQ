@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useQuiz } from "../../components/TotalWeb";
 
-export default function Web4(){
+export default function No4(){
     const {incScore} = useQuiz()
     const navigate = useNavigate();
     

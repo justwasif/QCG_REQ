@@ -1,12 +1,12 @@
 import { createContext, useContext, useState } from "react";
 
-const quiz = createContext();
+const quizWeb = createContext();
 
 export function TotalWeb({ children }) {
     const [total, setTotal] = useState(0);
     
     const incScore = () => {
-        setTotal(inc => inc + 1);  // Fixed typo: ince -> inc
+        setTotal(inc => inc + 1);  
     };
     
     return (
@@ -16,8 +16,8 @@ export function TotalWeb({ children }) {
     );
 }
 
-export function useQuiz() {  // Renamed for clarity
-    const context = useContext(quiz);  // Fixed: use quiz context, not TotalWeb
+export function useQuiz() {  
+    const context = useContext(quizWeb);  
    
     return context;
 }
