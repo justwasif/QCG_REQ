@@ -6,7 +6,7 @@ export default function Home(){
         navigate("/web1")
     }
     const handleCore=()=>{
-        navigate("/core")
+        navigate("/core1")
 
     }
     const handleDesign=()=>{

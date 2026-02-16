@@ -18,6 +18,10 @@ import No1 from './pages/design/No1'
 import No2 from './pages/design/No2'
 import No3 from './pages/design/No3'
 import No4 from './pages/design/No4'
+import Cno1 from './pages/core/Cno1'
+import Cno2 from './pages/core/Cno2'
+import Cno3 from './pages/core/Cno3'
+import Cno4 from './pages/core/Cno4'
 function App() {
   const router = createBrowserRouter([
   { path: "/home", element: <Home /> },
@@ -35,6 +39,10 @@ function App() {
   {path:"/design2",element:<No2/>},
   {path:"/design3",element:<No3/>},
   {path:"/design4",element:<No4/>},
+  {path:"core1",element:<Cno1/>},
+  {path:"core2",element:<Cno2/>},
+  {path:"core3",element:<Cno3/>},
+  {path:"core4",element:<Cno4/>},
 
 
   ])

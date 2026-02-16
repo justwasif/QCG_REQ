@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-const quizWeb = createContext();
+const quiz = createContext();
 
 export function TotalWeb({ children }) {
     const [total, setTotal] = useState(0);
@@ -17,7 +17,7 @@ export function TotalWeb({ children }) {
 }
 
 export function useQuiz() {  
-    const context = useContext(quizWeb);  
+    const context = useContext(quiz);  
    
     return context;
 }

@@ -2,16 +2,16 @@
 import { useNavigate } from "react-router-dom";
 import { useQuiz } from "../../components/TotalWeb";
 
-export default function No1(){
+export default function Cno4(){
     const {incScore} = useQuiz()
     const navigate = useNavigate();
     
     const handleInc = () => {
         incScore();
-        navigate("/design2")
+        navigate("/result")
     }
     const rest=()=>{
-      navigate("/design2")
+      navigate("/result")
     }
     
     return (
